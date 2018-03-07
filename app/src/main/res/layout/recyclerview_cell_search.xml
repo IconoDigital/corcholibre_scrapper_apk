@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/ivSearchProduct"
+            android:background="@color/cardview_light_background"
+
+            android:layout_gravity="center_vertical"
+
+            android:layout_marginTop="5dp" />
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="30dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/ivSearchCategory"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="88dp"
+        android:paddingLeft="10dp"
+        android:layout_width="220dp">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSearchDescription"
+            android:layout_marginTop="5dp"
+            android:lines="2" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSearchBrand"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <CheckBox
+        android:text=""
+        android:id="@+id/checkBox"
+        android:layout_weight="1"
+        android:layout_height="30dp"
+        android:layout_marginTop="44dp"
+        android:gravity="start"
+        android:layout_width="30dp" />
+
+</LinearLayout>

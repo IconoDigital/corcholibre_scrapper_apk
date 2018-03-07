@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_24"
+            android:title="Buscar" />
+        <item
+            android:id="@+id/nav_my_lists"
+            android:icon="@drawable/ic_list_24"
+            android:title="@string/my_list"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_ofertas"
+            android:icon="@drawable/ic_calendar_24"
+            android:title="ofertas" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_megaphone_24"
+            android:title="Offer Notifications"
+            android:visible="false" />
+
+        <!--<item
+            android:id="@+id/nav_settings"
+
+            android:title="Settings" />-->
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_back_24"
+            android:title="Logout" />
+    </group>
+
+
+
+</menu>

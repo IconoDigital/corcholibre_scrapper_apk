@@ -1,0 +1,26 @@
+<resources>
+
+
+    <string name="facebook_app_id">147836315835995</string>
+    <string name="fb_login_protocol_scheme">fb147836315835995</string>
+
+
+    <string name="app_name">Corcho Libre</string>
+    <string name="login">Accede a Corcho Libre</string>
+    <string name="product_list">Product List</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_product_details">Product Details</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_add_to_list">Add To List</string>
+    <string name="List_item_activity_name">List Items</string>
+    <string name="Alert_list_activity_name">Offer Notification</string>
+    <string name="search_products">Buscar Producto</string>
+    <string name="search_products2">Buscar el mejor precio</string>
+    <string name="my_list">Mi Lista de Compras</string>
+    <string name="xyz">XYZ</string>
+</resources>

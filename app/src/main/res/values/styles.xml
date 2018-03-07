@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/BebasNeue_Regular</item>
+        <item name="android:fontFamily">@font/bebas_neue_regular</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppTheme.WhiteText" parent="AppTheme">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="TabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#FFCC00</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">#5fa3d0</item>
+    </style>
+
+    <style name="BebasNeue_Regular" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/bebas_neue_regular</item>
+    </style>
+
+    <style name="Hold_Fast_Foundry_Gin" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/hold_fast_foundry_fin</item>
+    </style>
+
+
+</resources>

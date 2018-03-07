@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:id="@+id/parent_ll">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:id="@+id/ivListProdict"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_982"
+            android:background="@color/cardview_light_background"
+            android:adjustViewBounds="false"
+            android:minHeight="88dp"
+            android:minWidth="88dp"
+            android:layout_marginTop="5dp"
+            android:cropToPadding="false" />
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="30dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/ivListCategory"
+            android:layout_weight="1"
+
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_weight="8"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvListDescription"
+            android:lines="2"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvListBrand"
+            android:lines="1"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+    <CheckBox
+        android:text=""
+        android:id="@+id/checkBox"
+        android:layout_weight="1"
+        android:layout_height="30dp"
+        android:layout_marginTop="44dp"
+        android:gravity="start"
+        android:layout_width="30dp" />
+
+</LinearLayout>
